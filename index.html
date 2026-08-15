@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="のぞみ(仮称) — 誰も、機械のそばで死なせない。名古屋で準備中の会社です。">
+<title>のぞみ — 誰も、機械のそばで死なせない</title>
+
+<style>
+:root{
+  --bg:#F7F4EE; --paper:#FDFBF7; --ink:#26221C; --soft:#6B6459; --faint:#A39B8D;
+  --line:#E4DED2; --akane:#B5543A; --akane-soft:#F4E4DD; --indigo:#3A4664;
+  --mincho:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
+  --sans:-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#191712; --paper:#211E18; --ink:#EAE4D8; --soft:#A89F90; --faint:#6E675B;
+  --line:#332F27; --akane:#D98A6E; --akane-soft:#33231D; --indigo:#9BA8C9;
+}}
+:root[data-theme="dark"]{
+  --bg:#191712; --paper:#211E18; --ink:#EAE4D8; --soft:#A89F90; --faint:#6E675B;
+  --line:#332F27; --akane:#D98A6E; --akane-soft:#33231D; --indigo:#9BA8C9;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--ink);font-family:var(--mincho);
+  line-height:2;-webkit-font-smoothing:antialiased;
+}
+.page{max-width:620px;margin:0 auto;padding:72px 28px 96px}
+.mark{
+  font-size:15px;letter-spacing:.42em;color:var(--akane);
+  writing-mode:horizontal-tb;margin-bottom:64px;font-family:var(--sans);font-weight:600;
+}
+h1{
+  font-size:clamp(30px,7vw,44px);font-weight:500;letter-spacing:.14em;
+  line-height:1.7;margin-bottom:10px;text-wrap:balance;
+}
+.yomi{font-size:13px;color:var(--faint);letter-spacing:.3em;margin-bottom:72px;font-family:var(--sans)}
+.lead{
+  font-size:17.5px;line-height:2.4;margin-bottom:64px;
+}
+.lead em{font-style:normal;color:var(--akane);font-weight:600}
+section{margin-bottom:64px}
+h2{
+  font-family:var(--sans);font-size:12px;font-weight:700;color:var(--faint);
+  letter-spacing:.28em;margin-bottom:22px;
+}
+p{font-size:15.5px;color:var(--ink);margin-bottom:1.4em}
+p.quiet{color:var(--soft)}
+.vow{
+  background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--akane);
+  padding:26px 26px 14px;margin-bottom:14px;
+}
+.vow b{display:block;font-size:15.5px;font-weight:600;letter-spacing:.06em;margin-bottom:8px}
+.vow p{font-size:14px;color:var(--soft);line-height:1.95}
+.q{
+  text-align:center;padding:56px 0;
+}
+.q p{
+  font-size:clamp(19px,4.6vw,24px);letter-spacing:.1em;line-height:2.1;
+  color:var(--ink);text-wrap:balance;
+}
+.q .who{font-size:12.5px;color:var(--faint);margin-top:18px;letter-spacing:.2em;font-family:var(--sans)}
+hr{border:none;border-top:1px solid var(--line);margin:0 auto 64px;width:56px}
+footer{
+  border-top:1px solid var(--line);padding-top:36px;
+  font-family:var(--sans);font-size:13px;color:var(--soft);line-height:2.1;
+}
+footer b{color:var(--ink);font-weight:600;letter-spacing:.08em}
+.status{
+  display:inline-block;font-family:var(--sans);font-size:11.5px;letter-spacing:.22em;
+  color:var(--indigo);border:1px solid var(--line);border-radius:99px;
+  padding:5px 16px;margin-bottom:26px;background:var(--paper);
+}
+</style>
+
+<div class="page">
+  <div class="mark">のぞみ</div>
+
+  <h1>誰も、機械のそばで<br>死なせない。</h1>
+  <p class="yomi">NOZOMI — 名古屋 · 準備中</p>
+
+  <p class="lead">
+    死ぬのにもお金がかかるのは、あまりに悲しい。<br>
+    この会社は、その一文から生まれました。<br><br>
+    書類も、請求も、移動の段取りも —<br>
+    機械にできることは、すべて機械が引き受ける。<br>
+    人は、<em>そばにいること</em>だけをする。
+  </p>
+
+  <section>
+    <h2>私たちの約束</h2>
+    <div class="vow">
+      <b>看取りは、人の仕事のままに。</b>
+      <p>最期の瞬間のそばは、いつも人間のものであるように。AIは記録と事務を呑み込み、残った時間のすべてを、そばにいる時間に返します。</p>
+    </div>
+    <div class="vow">
+      <b>死の費用を、見えるものに。</b>
+      <p>看取りひとつにかかる社会的な費用を公表し、毎年下げていきます。値段が見えれば、不安は小さくなる。適正の次は、適価です。</p>
+    </div>
+    <div class="vow">
+      <b>働く人を守る道具を。</b>
+      <p>記録は監視のためではなく、看護師を守る盾であるように。データの一次的な権利は、現場で働く人のものです。</p>
+    </div>
+  </section>
+
+  <hr>
+
+  <div class="q">
+    <p>「私自身も、<br>ここに入りたいか。」</p>
+    <p class="who">— すべての決定は、この問いで判定します</p>
+  </div>
+
+  <hr>
+
+  <section>
+    <h2>いま</h2>
+    <p class="status">2026年 · 名古屋で準備中</p>
+    <p class="quiet">
+      創業者は名古屋に住む医師です。この土地で介護の現場に出会い、この構想が生まれました。いまは、現場の声を聞くことから始めています。この頁は完成品ではありません — 私たちの会社と同じように、直しながら育てていきます。
+    </p>
+  </section>
+
+  <footer>
+    <b>のぞみ (仮称)</b><br>
+    高木 なつ / Takagi Natsu — 医師<br>
+    名古屋, 日本<br>
+    <span style="color:var(--faint)">連絡先は準備中です。</span>
+  </footer>
+</div>
+
+</html>
