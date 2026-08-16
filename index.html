@@ -70,6 +70,24 @@ p:last-child{margin-bottom:0}
   border-left:3px solid var(--akane);padding-left:20px;
 }
 .mura em{font-style:normal;color:var(--akane);font-weight:600}
+.who-card{
+  background:var(--paper);border:1px solid var(--line);border-radius:8px;
+  padding:20px 21px;margin-bottom:12px;
+}
+.who-card.now{border-color:var(--akane)}
+.who-card b{display:block;font-size:15.5px;font-weight:600;letter-spacing:.05em;margin-bottom:10px}
+.who-card.now b{color:var(--akane)}
+.who-card p{font-size:14.5px;color:var(--soft);line-height:2;margin-bottom:0}
+.who-card .soon{color:var(--faint);font-size:13.5px}
+p.order{margin-top:20px;padding-left:18px;border-left:2px solid var(--line)}
+.find{padding:18px 0;border-bottom:1px solid var(--line)}
+.find:last-child{border-bottom:none}
+.find time{
+  display:block;font-family:var(--sans);font-size:11.5px;font-weight:700;
+  letter-spacing:.14em;color:var(--akane);margin-bottom:9px;
+}
+.find p{font-size:15px;line-height:2.05;margin-bottom:9px}
+.find .from{font-family:var(--sans);font-size:12px;color:var(--faint);line-height:1.65}
 hr{border:none;border-top:1px solid var(--line);margin:0 auto 64px;width:56px}
 .status{
   display:inline-block;font-family:var(--sans);font-size:11.5px;letter-spacing:.22em;
@@ -118,6 +136,30 @@ footer a:hover{border-bottom-color:var(--akane)}
   </section>
 
   <section>
+    <h2>この会社は、誰のために</h2>
+
+    <div class="who-card">
+      <b>お年寄りと、ご家族へ</b>
+      <p>最後にいる場所が、施設ではなく村であるように。<br>面会ではなく、お客さんを迎えられるように。<br><span class="soon">— これが、私たちの目的です。まだ届いていません。</span></p>
+    </div>
+
+    <div class="who-card">
+      <b>看護師さんへ</b>
+      <p>記録に追われて、そばにいる時間がなくなることのないように。<br>記録は、あなたを見張るものではなく、<b>あなたを守る盾</b>であるように。データの一次的な権利は、現場のあなたのものです。</p>
+    </div>
+
+    <div class="who-card now">
+      <b>訪問看護ステーションを経営される方へ</b>
+      <p>今日、私たちが最初にお手伝いする相手です。<br>書類も、請求も、監査の備えも — 機械にできることは、機械が引き受けます。<br><span class="soon">— 事業者の方向けのご案内は、近く別のページでお出しします。</span></p>
+    </div>
+
+    <p class="quiet order">
+      <b>なぜ、いちばん下から始めるのか。</b><br>
+      お年寄りのそばに人がいる時間をつくるには、まずその人を雇っている事業所が、単価の下がる時代を生き延びなければならないからです。順番を飛ばすと、誰も助かりません。
+    </p>
+  </section>
+
+  <section>
     <h2>私たちの約束</h2>
     <div class="vow">
       <b>看取りは、人の仕事のままに。</b>
@@ -142,6 +184,38 @@ footer a:hover{border-bottom-color:var(--akane)}
   </div>
 
   <hr>
+
+  <section>
+    <h2>わかったこと</h2>
+    <p class="quiet" style="margin-bottom:22px">
+      毎日ひとつ、調べてわかったことを書きます。宣伝ではありません。<br>
+      <b>数字は公開統計に基づく推定です。間違いが見つかれば、訂正して残します。</b>
+    </p>
+
+    <div class="find">
+      <time>2026.08.16</time>
+      <p><b>「面会」ではなく、「お客さん」。</b>病室の人は面会を受けますが、縁側の人はお客さんを迎えます。同じ訪問でも、来る人の資格がちがう。ホスピスは、死ぬための場所ではなく<b>住みたい場所</b>でありうる。</p>
+      <span class="from">創業者の言葉から</span>
+    </div>
+
+    <div class="find">
+      <time>2026.08.15</time>
+      <p><b>看護師さんの残業理由、第1位は「記録・報告書」でした。</b>残業する人の69.2%が挙げています。看護師の労働時間の少なくない部分は、ケアではなく書類仕事です。</p>
+      <span class="from">日本看護協会 訪問看護実態調査(2014年・複数回答)</span>
+    </div>
+
+    <div class="find">
+      <time>2026.08.15</time>
+      <p><b>一日のうち、直接ケアに使えているのは55〜60%ほど。</b>残りは記録・移動・電話・書類に消えています。</p>
+      <span class="from">複数調査からの推定 — 実地での確認はこれから</span>
+    </div>
+
+    <div class="find">
+      <time>2026.08.15</time>
+      <p><b>単価が10%下がると、平均的なステーションは赤字に転じます。</b>損益分岐点は月341回訪問から<b>379回</b>へ。利益率の緩衝は5.9%しかありません。</p>
+      <span class="from">厚労省 介護事業経営実態調査ほかに基づく推定</span>
+    </div>
+  </section>
 
   <section>
     <h2>いま</h2>
